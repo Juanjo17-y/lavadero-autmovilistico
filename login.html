@@ -6,28 +6,49 @@
     <title>Login</title>
 </head>
 <body>
-    
-</body>
-</html>
 
-<section>
+    <section>
     <h1>Formulario Login</h1>
 
     <form action="index.html">
 
         <label
-        for="">Usuario</label>
-        <input type="text">
+        for="cualquiera">Usuario</label>
+        <input type="text" id="cualquiera">
         <br>
-
         <label
-        for="">Contraseña</label>
-        <input 
-        type="password">
+        for="cualquiera">Contraseña</label>
+        <input type="password" id="cualquiera">
         <br>
-        <button>logear
-        </button>         
+        <label
+        for="edad">edad
+        </label>
+        <input 
+        type="password" id="edad">
+        <br>
+        <label for="">Lista de seleccion</label>
+        <select name="opciones" id="opciones">
+            <optgroup label="Principales">
+            <option value="opcion1" selected>primera
+            </option>
+            <option value="opcion2">segunda
+            </option>
+            </optgroup>
+            <optgroup label="Otras">
+            <option value="opcion3">tercera
+            </option>
+            <option value="opcion4">cuarta
+            </option>
+            </optgroup>
+        </select>
+        <br><br>
+        <button>Logear</button>
 
-    </form>    
+    </form>
+    </section>
+<section>
+    <button> <a href="recuperar_contraseña.html">Recuperar Contraseña</a></button>
+</section>
+</body>
 
-</section>        
+</html>
